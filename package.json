@@ -1,0 +1,26 @@
+{
+  "name": "@tether-test/source",
+  "scripts": {
+    "start": "node src"
+  },
+  "private": true,
+  "dependencies": {
+    "@hyperswarm/rpc": "^3.2.2",
+    "b4a": "^1.6.4",
+    "dotenv": "^16.3.1",
+    "env-var": "^7.4.1",
+    "hyperbee": "^2.15.0",
+    "hypercore": "^10.24.11",
+    "hyperdht": "^6.6.1",
+    "hyperswarm": "^4.6.1",
+    "sodium-universal": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "^3.0.3"
+  }
+}
